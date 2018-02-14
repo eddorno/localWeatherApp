@@ -1,5 +1,4 @@
 body {
-  /*background-color: #EAE7DC;*/
   background-color: #5CDB95;
 }
 
@@ -9,28 +8,25 @@ body {
   color: white;
 }
 
-.here {
+.temp {
   cursor: pointer;
   cursor: hand;
-  margin: 25px;
+  margin: 5%;
+}
+
+.weather_icon {
+  margin: 5%;
 }
 
 #block {
-  border: 2px solid #66FCF1;
-  border-radius: 10px;
-  margin-top: 15%;
-  margin-bottom: 50px;
-  padding: 20px;
-  /*height: 200px;*/
+  border: 0.1em solid #66FCF1;
+  border-radius: 1em;
+  padding-top: 10%;
+  padding-bottom: 30%;
   background-color: #45A29E;
   color: white;
   width: 100%;
-  height: 65%;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
+  height: 70%;
 }
 
 .footer {
