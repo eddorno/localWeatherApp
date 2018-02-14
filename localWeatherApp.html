@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="weather.css">
+  <link rel="stylesheet" type="text/css" href="weather-icons.min.css">
+  <link rel="octet-stream" href="weathericons-regular-webfont.eot">
+  <link rel="image/svg+xml" href="weathericons-regular-webfont.svg">
+  <link rel="application/octet-stream" href="weathericons-regular-webfont.ttf">
+  <link rel="application/font-woff" href="weathericons-regular-webfont.woff">
+  <link rel="application/octet-stream" href="weathericons-regular-webfont.woff2">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="weather.js"></script>
+</head>
+<body>
+<div class="container">
+<h1 class="title text-center">Local Weather App</h1>
+
+<div class="row">
+  <div class="col"></div>
+  <div class="col-6">
+    <div id="block" class="text-center">
+      <h4 class="text-center">Current Temperature: </h4>
+      <br>
+      <div class="icon"></div>
+      <p class="here text-center"></p>
+      <p class="there text-center"></p>
+    </div>
+  </div>
+  <div class="col"></div>
+</div>
+
+<footer class="footer text-center fixed-bottom">
+  <a href="https://darksky.net/poweredby/">
+    <!--<img src="https://darksky.net/dev/img/attribution/poweredby-oneline.png" height="100px" alt="Powered by Dark Sky">-->
+    <img src="https://darksky.net/dev/img/attribution/poweredby-darkbackground.png" height="100px" alt="Powered by Dark Sky">
+  </a>
+</footer>
+</div>
+</body>
+</html>
